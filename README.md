@@ -101,7 +101,7 @@ Aqui o projetinho da profa: https://app-divertido.netlify.app/
 | --- | --- |
 | `React` | Biblioteca javascript |
 | `Hooks` | APIs do React |
-| `Axios` | Biblioteca oara consumir API|
+| `Axios` | Biblioteca para consumir API|
 | `npm ou yarn` | Gerenciador de pacotes|
 | `Netlify` | Servidor para deploy|
 | `react-router-dom` | Biblioteca para criação de rotas no React|
@@ -137,12 +137,15 @@ Aqui o projetinho da profa: https://app-divertido.netlify.app/
    |
    |    |- 📁 routes
    |         |- 📄 Routes.js 
-   |        
+   |    
    |
    |
-   |- 📄 App.js
-   |- 📄 index.js
-   |- 📄 global.css
+   |    |- 📄 App.js
+   |    |- 📄 index.js
+   |    |- 📄 global.css
+   |
+   |
+   
 
 ```
 
