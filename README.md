@@ -84,6 +84,8 @@ Vamos criar uma single page application usando react, chamaremos de app divertid
 
 <img src="https://media.giphy.com/media/3DTVDCQuiRFbT3n72p/giphy.gif">
 
+Aqui o projetinho da profa: https://app-divertido.netlify.app/
+
 | Requisito | Descrição |
 | --- | --- |
 | `Menu` | Dado que eu clico, em home sou redirecionada para rota "/", dado que eu clico em simpsons sou redirecionada para rota "/simpsons   |
