@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Menu from '../../components/Menu'
 
 import Axios from 'axios'
+import './styles.css'
 
 const Simpsons = () => {
     const [personagem, setPersonagem] = useState([])
@@ -23,10 +24,10 @@ const Simpsons = () => {
     return (
         <>
             <Menu />
-            <div>
+            <div className="main-simpson">
                 {personagem.map(perso => {
                     return(
-                        <div>
+                        <div className="card">
                             <p>{perso.character}</p>
                             <img src={perso.image} alt="personagem simpson"/>
                         </div>

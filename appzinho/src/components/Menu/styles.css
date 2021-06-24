@@ -1,12 +1,13 @@
 .menu {
-    margin: 2rem;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .menu li {
-    margin-left: 4rem;
     list-style: none;
 }
 
@@ -17,8 +18,9 @@
 
 @media (max-width:768px){
     .menu {
-        margin: 2rem;
+        width: 100%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
+        align-items:center;
     }
 }
